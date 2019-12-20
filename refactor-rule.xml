@@ -1,4 +1,4 @@
-<mxfile modified="2019-12-20T12:06:10.625Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="Uvjld1LCfp3AP3DO4bAG" version="12.4.3" type="github" pages="22">
+<mxfile modified="2019-12-20T12:26:52.958Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="h94DapB1VgQmIfGhGdVH" version="12.4.3" type="github" pages="23">
   <diagram id="d6ec7328-0d23-8ace-529d-3240387e9207" name="ç»ä»¶åé¨å³ç³»å¾">
     <mxGraphModel dx="586" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -5621,30 +5621,125 @@
     </mxGraphModel>
   </diagram>
   <diagram id="p7klNyHAYp45l5dxQKL3" name="Page-22">
-    <mxGraphModel dx="1186" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="994" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Docq1MPeUPvIOKag5V9D-0"/>
         <mxCell id="Docq1MPeUPvIOKag5V9D-1" parent="Docq1MPeUPvIOKag5V9D-0"/>
-        <mxCell id="Docq1MPeUPvIOKag5V9D-2" value="插件式基础组件&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1）业务相关插件化&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2）IaaS相关调用插件化&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3）源数据操作插件化&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="Docq1MPeUPvIOKag5V9D-1">
+        <mxCell id="Docq1MPeUPvIOKag5V9D-2" value="插件式基础组件&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1）业务相关插件化&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2）IaaS相关调用插件化&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3）源数据操作插件化&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" parent="Docq1MPeUPvIOKag5V9D-1" vertex="1">
           <mxGeometry x="288" y="420" width="184" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="Docq1MPeUPvIOKag5V9D-3" value="PostgreSQL业务" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="Docq1MPeUPvIOKag5V9D-1">
+        <mxCell id="Docq1MPeUPvIOKag5V9D-3" value="PostgreSQL业务" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" parent="Docq1MPeUPvIOKag5V9D-1" vertex="1">
           <mxGeometry x="200" y="374" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="Docq1MPeUPvIOKag5V9D-4" value="MySQL业务" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="Docq1MPeUPvIOKag5V9D-1">
+        <mxCell id="Docq1MPeUPvIOKag5V9D-4" value="MySQL业务" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" parent="Docq1MPeUPvIOKag5V9D-1" vertex="1">
           <mxGeometry x="320" y="340" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="Docq1MPeUPvIOKag5V9D-5" value="&amp;nbsp; SQL server业务" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="Docq1MPeUPvIOKag5V9D-1">
+        <mxCell id="Docq1MPeUPvIOKag5V9D-5" value="&amp;nbsp; SQL server业务" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" parent="Docq1MPeUPvIOKag5V9D-1" vertex="1">
           <mxGeometry x="440" y="373" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="Docq1MPeUPvIOKag5V9D-6" value="DTS业务" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="Docq1MPeUPvIOKag5V9D-1">
+        <mxCell id="Docq1MPeUPvIOKag5V9D-6" value="DTS业务" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" parent="Docq1MPeUPvIOKag5V9D-1" vertex="1">
           <mxGeometry x="190" y="500" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="Docq1MPeUPvIOKag5V9D-7" value="其他业务" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="Docq1MPeUPvIOKag5V9D-1">
+        <mxCell id="Docq1MPeUPvIOKag5V9D-7" value="其他业务" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" parent="Docq1MPeUPvIOKag5V9D-1" vertex="1">
           <mxGeometry x="460" y="500" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="Docq1MPeUPvIOKag5V9D-8" value="DRDS业务" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="Docq1MPeUPvIOKag5V9D-1">
+        <mxCell id="Docq1MPeUPvIOKag5V9D-8" value="DRDS业务" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" parent="Docq1MPeUPvIOKag5V9D-1" vertex="1">
           <mxGeometry x="320" y="544" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="7k7-7kg4IQllmdMg3_z0-0" value="&lt;span style=&quot;white-space: normal&quot;&gt;插件式基础组件&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;div style=&quot;white-space: normal ; text-align: left&quot;&gt;1）业务相关插件化&lt;/div&gt;&lt;div style=&quot;white-space: normal ; text-align: left&quot;&gt;2）IaaS相关调用插件化&lt;/div&gt;&lt;div style=&quot;white-space: normal ; text-align: left&quot;&gt;3）源数据操作插件化&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#B3B3B3;fontSize=12;fontColor=#000000;" vertex="1" parent="Docq1MPeUPvIOKag5V9D-1">
+          <mxGeometry x="120" y="40" width="300" height="300" as="geometry"/>
+        </mxCell>
+        <mxCell id="7k7-7kg4IQllmdMg3_z0-1" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=12;fontColor=#000000;" vertex="1" parent="Docq1MPeUPvIOKag5V9D-1">
+          <mxGeometry x="170" y="650" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="7k7-7kg4IQllmdMg3_z0-2" value="MySQL业务" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=12;fontColor=#000000;align=left;" vertex="1" parent="Docq1MPeUPvIOKag5V9D-1">
+          <mxGeometry x="380" y="70" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="7k7-7kg4IQllmdMg3_z0-3" value="PostgresSQL业务" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=12;fontColor=#000000;align=left;" vertex="1" parent="Docq1MPeUPvIOKag5V9D-1">
+          <mxGeometry x="380" y="145" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="7k7-7kg4IQllmdMg3_z0-4" value="SQL Server业务" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=12;fontColor=#000000;align=left;" vertex="1" parent="Docq1MPeUPvIOKag5V9D-1">
+          <mxGeometry x="380" y="220" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tNob4k2MNYpNEo3fST6q" name="插件设计">
+    <mxGraphModel dx="1193" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-0"/>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-1" parent="GcNskRaBJqEXcdqCn7HZ-0"/>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=15;fontColor=#0000FF;fontStyle=1;strokeWidth=2;" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="110" y="40" width="370" height="370" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-3" value="&amp;nbsp; MySQL插件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=15;fontColor=#3399FF;align=left;fontStyle=1" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="460" y="60" width="170" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-4" value="&amp;nbsp; PostgresSQL插件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=15;fontColor=#3399FF;align=left;fontStyle=1" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="460" y="120" width="170" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-5" value="&amp;nbsp; SQL Server插件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=15;fontColor=#666666;align=left;fontStyle=1" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="460" y="175" width="170" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-6" value="IaaS" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=15;fontColor=#0000FF;align=center;fontStyle=1" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="133" y="387" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-7" value="京舰" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=15;fontColor=#B3B3B3;align=center;fontStyle=1" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="223" y="387" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-8" value="K8S" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=15;fontColor=#B3B3B3;align=center;fontStyle=1" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="313" y="387" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-9" value="API" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;fontColor=#0000FF;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="180" y="50" width="220" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-10" value="生命周期" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;fontColor=#0000FF;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="130" y="100" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-11" value="备份恢复" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;fontColor=#0000FF;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="240" y="100" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-12" value="高可用" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;fontColor=#0000FF;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="130" y="165" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-13" value="时间点恢复" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;fontColor=#0000FF;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="240" y="165" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-14" value="扩容升配" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;fontColor=#0000FF;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="130" y="230" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-15" value="安全组" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;fontColor=#0000FF;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="240" y="230" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-17" value="跨域灾备" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;fontColor=#0000FF;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="350" y="100" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-18" value="公网访问" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;fontColor=#0000FF;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="350" y="165" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-19" value="参数组" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;fontColor=#0000FF;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="350" y="227" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-20" value="启停服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;fontColor=#0000FF;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="130" y="300" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-21" value="启停服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;fontColor=#0000FF;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="240" y="300" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-22" value="多云" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=15;fontColor=#B3B3B3;align=center;fontStyle=1" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="403" y="387" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-23" value="运维相关" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;fontColor=#0000FF;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="350" y="300" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-24" value="&amp;nbsp; DTS插件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=15;fontColor=#B3B3B3;align=left;fontStyle=1" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="460" y="232" width="170" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-25" value="&amp;nbsp;DRDS插件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=15;fontColor=#B3B3B3;align=left;fontStyle=1" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="460" y="290" width="170" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="GcNskRaBJqEXcdqCn7HZ-27" value="其他" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=15;fontColor=#B3B3B3;align=left;fontStyle=1" vertex="1" parent="GcNskRaBJqEXcdqCn7HZ-1">
+          <mxGeometry x="464" y="345" width="166" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
