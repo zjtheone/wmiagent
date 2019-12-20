@@ -1,4 +1,4 @@
-<mxfile modified="2019-12-20T12:30:33.075Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="yLBl-BuhwCOfgyqV29F7" version="12.4.3" type="github" pages="23">
+<mxfile modified="2019-12-20T12:37:59.880Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="LmcOiwA-JleHRa6K_dL1" version="12.4.3" type="github" pages="23">
   <diagram id="d6ec7328-0d23-8ace-529d-3240387e9207" name="ç»ä»¶åé¨å³ç³»å¾">
     <mxGraphModel dx="586" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -5468,7 +5468,7 @@
         <mxCell id="xGXMfBsM04D9sMh_WvxO-0" value="PostGIS" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fontSize=15;fontStyle=1" parent="syS5By7kemW3FQvTmbSh-1" vertex="1">
           <mxGeometry x="99" y="210" width="55" height="25" as="geometry"/>
         </mxCell>
-        <mxCell id="xGXMfBsM04D9sMh_WvxO-1" value="MADlib" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fontSize=15;fontStyle=1" parent="syS5By7kemW3FQvTmbSh-1" vertex="1">
+        <mxCell id="xGXMfBsM04D9sMh_WvxO-1" value="AI插件" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fontSize=15;fontStyle=1" parent="syS5By7kemW3FQvTmbSh-1" vertex="1">
           <mxGeometry x="160" y="210" width="60" height="25" as="geometry"/>
         </mxCell>
         <mxCell id="xGXMfBsM04D9sMh_WvxO-2" value="pglogical" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fontSize=15;fontStyle=1" parent="syS5By7kemW3FQvTmbSh-1" vertex="1">
@@ -5477,7 +5477,7 @@
         <mxCell id="xGXMfBsM04D9sMh_WvxO-4" value="PostGIS" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fontSize=15;fontStyle=1" parent="syS5By7kemW3FQvTmbSh-1" vertex="1">
           <mxGeometry x="272" y="215" width="66" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="xGXMfBsM04D9sMh_WvxO-5" value="MADlib" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fontSize=15;fontStyle=1" parent="syS5By7kemW3FQvTmbSh-1" vertex="1">
+        <mxCell id="xGXMfBsM04D9sMh_WvxO-5" value="AI插件" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fontSize=15;fontStyle=1" parent="syS5By7kemW3FQvTmbSh-1" vertex="1">
           <mxGeometry x="272" y="250" width="66" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="xGXMfBsM04D9sMh_WvxO-7" value="&lt;span style=&quot;font-family: &amp;#34;pingfangsc&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;calibri&amp;#34; , &amp;#34;microsoft yahei ui&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;QueueService&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#FFFFFF;strokeColor=#000000;fontSize=15;fontColor=#000000;fontStyle=1" parent="syS5By7kemW3FQvTmbSh-1" vertex="1">
@@ -5529,11 +5529,11 @@
             <mxPoint x="-148" y="120" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="syS5By7kemW3FQvTmbSh-11" value="OSS Object Storage Service&lt;br style=&quot;font-size: 15px;&quot;&gt;更多的数据库用相同的数据源" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fontSize=15;fontStyle=1" parent="syS5By7kemW3FQvTmbSh-1" vertex="1">
+        <mxCell id="syS5By7kemW3FQvTmbSh-11" value="OSS 对象存储&lt;br style=&quot;font-size: 15px&quot;&gt;更多的数据库用相同的数据源" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fontSize=15;fontStyle=1" parent="syS5By7kemW3FQvTmbSh-1" vertex="1">
           <mxGeometry x="70" y="350" width="630" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="xGXMfBsM04D9sMh_WvxO-22" value="GIS" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#B3B3B3;fontSize=15;fontStyle=1" parent="syS5By7kemW3FQvTmbSh-1" vertex="1">
-          <mxGeometry x="434" y="236" width="50" height="20" as="geometry"/>
+          <mxGeometry x="449" y="219" width="50" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="xGXMfBsM04D9sMh_WvxO-24" value="提数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=15;fontColor=#000000;fontStyle=1" parent="syS5By7kemW3FQvTmbSh-1" vertex="1">
           <mxGeometry x="110" y="300" width="50" height="20" as="geometry"/>
@@ -5608,8 +5608,8 @@
         <mxCell id="9Zno4n0tRIex1ntOlCT9-3" value="数据计算服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="syS5By7kemW3FQvTmbSh-1">
           <mxGeometry x="384" y="260" width="100" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="9Zno4n0tRIex1ntOlCT9-4" value="&lt;b&gt;DB&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=15;fontColor=#000000;" vertex="1" parent="syS5By7kemW3FQvTmbSh-1">
-          <mxGeometry x="298" y="460" width="40" height="20" as="geometry"/>
+        <mxCell id="9Zno4n0tRIex1ntOlCT9-4" value="&lt;b&gt;DataBase&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=15;fontColor=#000000;" vertex="1" parent="syS5By7kemW3FQvTmbSh-1">
+          <mxGeometry x="278" y="460" width="80" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="9Zno4n0tRIex1ntOlCT9-9" value="&lt;font color=&quot;#3333ff&quot; style=&quot;background-color: rgb(255 , 255 , 51)&quot;&gt;&lt;b&gt;mq2es&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=12;fontColor=#000000;" vertex="1" parent="syS5By7kemW3FQvTmbSh-1">
           <mxGeometry x="-100" y="200" width="50" height="20" as="geometry"/>
