@@ -1,4 +1,4 @@
-<mxfile modified="2019-12-23T09:47:35.251Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="BG_ymV61VX-ZuQuYB3fm" version="12.4.3" type="github" pages="24">
+<mxfile modified="2019-12-23T09:50:45.406Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="HMRv-39qjAb_FXvXCWRd" version="12.4.3" type="github" pages="24">
   <diagram id="d6ec7328-0d23-8ace-529d-3240387e9207" name="ç»ä»¶åé¨å³ç³»å¾">
     <mxGraphModel dx="1186" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -5755,7 +5755,7 @@
           <mxGeometry x="880" y="520" width="270" height="270" as="geometry"/>
         </mxCell>
         <mxCell id="PoB9ypQA37ngXNFfWxW7-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;RDS PostgreSQL&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;verticalAlign=top;fontSize=24;labelBackgroundColor=#FFFFFF;fontStyle=1" vertex="1" parent="PoB9ypQA37ngXNFfWxW7-1">
-          <mxGeometry x="-1.14" y="502" width="391.14" height="298" as="geometry"/>
+          <mxGeometry x="-1.14" y="502" width="371.14" height="298" as="geometry"/>
         </mxCell>
         <mxCell id="PoB9ypQA37ngXNFfWxW7-3" value="JDW" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fontSize=24;verticalAlign=top;fontStyle=1" vertex="1" parent="PoB9ypQA37ngXNFfWxW7-1">
           <mxGeometry x="480" y="502" width="270" height="258" as="geometry"/>
@@ -5806,10 +5806,10 @@
             <mxPoint x="460" y="190" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PoB9ypQA37ngXNFfWxW7-21" value="" style="endArrow=none;dashed=1;html=1;fontColor=#000000;fontSize=15;fontStyle=1;strokeWidth=3;" edge="1" parent="PoB9ypQA37ngXNFfWxW7-1">
+        <mxCell id="PoB9ypQA37ngXNFfWxW7-21" value="" style="endArrow=none;dashed=1;html=1;fontColor=#000000;fontSize=15;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;" edge="1" parent="PoB9ypQA37ngXNFfWxW7-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="850" y="1070" as="sourcePoint"/>
-            <mxPoint x="849.9999999999999" y="188.92000000000007" as="targetPoint"/>
+            <mxPoint x="843" y="1070" as="sourcePoint"/>
+            <mxPoint x="842.9999999999999" y="188.92000000000007" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="PoB9ypQA37ngXNFfWxW7-23" value="OLTP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontColor=#000000;fontSize=24;fontStyle=1" vertex="1" parent="PoB9ypQA37ngXNFfWxW7-1">
@@ -5850,7 +5850,7 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PoB9ypQA37ngXNFfWxW7-47" value="&lt;font style=&quot;font-size: 29px ; font-weight: normal&quot;&gt;OSS 对象存储&lt;br&gt;&lt;font style=&quot;font-size: 29px&quot;&gt;更多的数据库用相同的数据源&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="PoB9ypQA37ngXNFfWxW7-1">
+        <mxCell id="PoB9ypQA37ngXNFfWxW7-47" value="&lt;font style=&quot;font-size: 29px ; font-weight: normal&quot;&gt;OSS 对象存储&lt;br&gt;&lt;font style=&quot;font-size: 29px&quot;&gt;多种不同类型的数据库用相同的数据源&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fontSize=15;fontStyle=1" vertex="1" parent="PoB9ypQA37ngXNFfWxW7-1">
           <mxGeometry x="11.5" y="902" width="1148.5" height="78" as="geometry"/>
         </mxCell>
         <mxCell id="PoB9ypQA37ngXNFfWxW7-48" value="GIS" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#B3B3B3;fontSize=24;fontStyle=0" vertex="1" parent="PoB9ypQA37ngXNFfWxW7-1">
@@ -5865,7 +5865,7 @@
         </mxCell>
         <mxCell id="PoB9ypQA37ngXNFfWxW7-136" value="s3_ext" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;fontSize=30;fontColor=#000000;fontStyle=1" vertex="1" connectable="0" parent="PoB9ypQA37ngXNFfWxW7-52">
           <mxGeometry x="0.5789" y="3" relative="1" as="geometry">
-            <mxPoint x="-47.37" y="6.390000000000001" as="offset"/>
+            <mxPoint x="-59.37" y="18.39" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="PoB9ypQA37ngXNFfWxW7-58" value="postgresql_fdw" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fontSize=24;fontStyle=0;fillColor=#d5e8d4;" vertex="1" parent="PoB9ypQA37ngXNFfWxW7-1">
@@ -5951,7 +5951,7 @@
         </mxCell>
         <mxCell id="PoB9ypQA37ngXNFfWxW7-135" value="s3_fdw" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;fontSize=30;fontColor=#000000;fontStyle=1" vertex="1" connectable="0" parent="PoB9ypQA37ngXNFfWxW7-108">
           <mxGeometry x="0.6172" relative="1" as="geometry">
-            <mxPoint x="-61.78" y="14.25" as="offset"/>
+            <mxPoint x="-67.78" y="23.25" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="PoB9ypQA37ngXNFfWxW7-109" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;s3_fdw&lt;/font&gt;" style="endArrow=classic;startArrow=classic;html=1;fontColor=#000000;fontSize=30;fontStyle=1;strokeWidth=6;strokeColor=#007FFF;" edge="1" parent="PoB9ypQA37ngXNFfWxW7-1">
@@ -6036,6 +6036,9 @@
         </mxCell>
         <mxCell id="1yqwvd03sRR86vvwRJxI-14" value="&lt;b style=&quot;font-size: 25px&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;s3_ext&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fontSize=25;fontStyle=0;fillColor=#d5e8d4;" vertex="1" parent="PoB9ypQA37ngXNFfWxW7-1">
           <mxGeometry x="645.36" y="618" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="1yqwvd03sRR86vvwRJxI-17" value="decoding" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fontSize=24;fontStyle=0;fillColor=#d5e8d4;" vertex="1" parent="PoB9ypQA37ngXNFfWxW7-1">
+          <mxGeometry x="520.6" y="250" width="115.76" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
