@@ -1,4 +1,4 @@
-<mxfile modified="2019-12-23T12:03:56.518Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="uVPrd_HdA7LlR_mbvsrO" version="12.4.3" type="github" pages="24">
+<mxfile modified="2019-12-23T12:04:43.824Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="HgXsbw-0xKx_wgcRAnUW" version="12.4.3" type="github" pages="24">
   <diagram id="d6ec7328-0d23-8ace-529d-3240387e9207" name="ç»ä»¶åé¨å³ç³»å¾">
     <mxGraphModel dx="1131" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -6117,9 +6117,6 @@
             <mxPoint x="459.99999999999955" y="1080" as="sourcePoint"/>
             <mxPoint x="459.99999999999955" y="190" as="targetPoint"/>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="7s-isFWp_RRRRaIA0Qba-47" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontSize=24;fontColor=#000000;" vertex="1" parent="PoB9ypQA37ngXNFfWxW7-1">
-          <mxGeometry x="1448" y="335" width="60" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
