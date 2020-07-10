@@ -1,4 +1,4 @@
-<mxfile modified="2020-07-10T03:58:40.819Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="pzeaf-eiEcbjiaRx5f2m" version="13.3.9" type="github" pages="26">
+<mxfile modified="2020-07-10T04:01:50.893Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="CCKdquaLZt3ARJSfFBA6" version="13.3.9" type="github" pages="26">
   <diagram id="d6ec7328-0d23-8ace-529d-3240387e9207" name="ç»ä»¶åé¨å³ç³»å¾">
     <mxGraphModel dx="1485" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -13075,7 +13075,7 @@
     
   </diagram>
   <diagram id="CKGYWbQsBcoywOe3A26y" name="PostgtreOpratorArch">
-    <mxGraphModel dx="2873" dy="1854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2259" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="SD5m20WdV8WgFhAvwDTl-0" />
         <mxCell id="SD5m20WdV8WgFhAvwDTl-1" parent="SD5m20WdV8WgFhAvwDTl-0" />
@@ -13254,7 +13254,7 @@
         <mxCell id="SD5m20WdV8WgFhAvwDTl-66" value="Monitoring Center" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;fontStyle=1" vertex="1" parent="SD5m20WdV8WgFhAvwDTl-1">
           <mxGeometry x="-540" y="817" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SD5m20WdV8WgFhAvwDTl-67" value="Controlized Logging Centrer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;fontStyle=1" vertex="1" parent="SD5m20WdV8WgFhAvwDTl-1">
+        <mxCell id="SD5m20WdV8WgFhAvwDTl-67" value="Centralized Logging Centrer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;fontStyle=1" vertex="1" parent="SD5m20WdV8WgFhAvwDTl-1">
           <mxGeometry x="40" y="818" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SD5m20WdV8WgFhAvwDTl-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;fontColor=#000000;" edge="1" parent="SD5m20WdV8WgFhAvwDTl-1" source="SD5m20WdV8WgFhAvwDTl-68" target="SD5m20WdV8WgFhAvwDTl-42">
@@ -13268,9 +13268,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SD5m20WdV8WgFhAvwDTl-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.873;entryY=1.035;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;fontSize=16;fontColor=#000000;dashed=1;strokeColor=#80FF00;" edge="1" parent="SD5m20WdV8WgFhAvwDTl-1" source="SD5m20WdV8WgFhAvwDTl-68" target="SD5m20WdV8WgFhAvwDTl-3">
+        <mxCell id="SD5m20WdV8WgFhAvwDTl-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.558;exitY=-0.039;exitDx=0;exitDy=0;entryX=0.873;entryY=1.035;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;fontSize=16;fontColor=#000000;dashed=1;strokeColor=#80FF00;exitPerimeter=0;" edge="1" parent="SD5m20WdV8WgFhAvwDTl-1" source="SD5m20WdV8WgFhAvwDTl-68" target="SD5m20WdV8WgFhAvwDTl-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="-3" y="738" />
               <mxPoint y="738" />
               <mxPoint y="680" />
               <mxPoint x="48" y="680" />
@@ -13280,7 +13281,7 @@
         <mxCell id="SD5m20WdV8WgFhAvwDTl-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.907;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;fontSize=16;fontColor=#000000;dashed=1;strokeColor=#00FF00;" edge="1" parent="SD5m20WdV8WgFhAvwDTl-1" source="SD5m20WdV8WgFhAvwDTl-68" target="SD5m20WdV8WgFhAvwDTl-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-3" y="680" />
+              <mxPoint y="680" />
               <mxPoint x="-406" y="680" />
             </Array>
           </mxGeometry>
