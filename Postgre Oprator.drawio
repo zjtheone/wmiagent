@@ -1,1 +1,151 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T07:09:09.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" version="13.4.2" etag="cWJ6MykrJb3-JZHsb6QY" type="github"><diagram id="e6y-2lSQlXqC9P7j0iec">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-04T07:58:34.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="LmflK0ttHYqj9FXSGd1s" version="13.4.2" type="github">
+  <diagram id="e6y-2lSQlXqC9P7j0iec" name="CreateCluster">
+    <mxGraphModel dx="2085" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-3" value="API URL路由分发，目前有暴露64个接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-6" value="CreateClusterHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-7" value="AuthCheck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-8" value="Check Client &amp;amp; Server Version Match" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-9" value="CreateCluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-11" value="Response Return" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-13" value="CreateCluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-14" value="ClusterName Validate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-15" value="ReplicaCount Validate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-16" value="UserLable 参数提取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-17" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;validateDataSourceParms&lt;/pre&gt;数据源参数检查&lt;br&gt;restoreFrom&lt;br&gt;retoreOption" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-20" value="检查PVC Size是否合法&lt;br&gt;Primary/Replica PVC&lt;br&gt;BackRest PVC&lt;br&gt;WAL PVC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="555" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-21" value="检查CPU Mem参数Request Limit是否合法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="660" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-22" value="BackuRest的CPU和Mem参数检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="750" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-23" value="PgBouncer的CPU和Mem参数检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="850" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-24" value="request.Tablespaces参数检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="950" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-25" value="集群TLS参数检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1040" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-26" value="用户参数组检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-27" value="Metric标记设置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-28" value="ServiceType检查&lt;br&gt;Defualt/LoadBalance/NodePort" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1310" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-29" value="灾备实例参数检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-30" value="BackRest存储类型检查&lt;br&gt;S3/Local" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1490" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-31" value="BackRest存储类型检查&lt;br&gt;S3/Local" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1580" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-32" value="BackRest StorageConfig&lt;br&gt;检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1660" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-33" value="是否有缺省参数组，有设置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1750" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-34" value="主StorageConfig检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1840" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-35" value="WAL Size和StorageConfig加查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1930" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-36" value="NodeLabe检查及提取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2030" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-37" value="NodeLabe检查及提取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2130" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-38" value="从StorageConfig检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-39" value="PgBouncer安装及replica&lt;br&gt;参数检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2330" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-40" value="Pod AntiAffinity参数检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-41" value="PgBouncer Pod AntiAffinity参数检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2530" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-42" value="主从同步复制参数加查及&lt;br&gt;标签设置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2630" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-43" value="BackRestS3URIStyle检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2720" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-44" value="创建CRD instance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2820" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-45" value="SecretFrom参数检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2923" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-46" value="Policies参数检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="3030" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-47" value="创建超级用户Secret" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="3130" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-48" value="创建Replication用户Secret" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="3230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-49" value="创建default User用户Secret" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="3330" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-50" value="创建collect User用户Secret" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="3420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-51" value="创建BackRest的S3和SSH的Secret" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="3520" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-52" value="为新cluster创建workflow，id作为response参数返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="3620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-53" value="为集群创建CRD&lt;br&gt;pgcluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="3720" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-54" value="return" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="3820" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-55" value="&lt;span&gt;API Router&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
