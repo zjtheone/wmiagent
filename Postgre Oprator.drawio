@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T12:57:49.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="bdmFnoCeukisRKQSY5sv" version="13.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-08-04T13:23:42.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="OsWdAu3OzhSDKaH3VgFR" version="13.4.2" type="github" pages="3">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="CreateCluster-APIServer">
-    <mxGraphModel dx="1787" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="969" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-2" value="" style="endArrow=classic;html=1;strokeColor=#FF3333;" edge="1" parent="1" target="i99rFXXE6MLXXWbWUxIi-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1189.71" y="120" as="sourcePoint" />
+            <mxPoint x="1189.71" y="3860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yWhdLjkU5JAQqWD6CEfC-57" value="" style="endArrow=classic;html=1;strokeColor=#FF3333;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="319.40999999999997" y="100" as="sourcePoint" />
@@ -171,6 +177,87 @@
         </mxCell>
         <mxCell id="2" value="API Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="295" y="10" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-2" value="&lt;font color=&quot;#000000&quot;&gt;API Server&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-3" value="&lt;font color=&quot;#000000&quot;&gt;UpdateClusterHandler&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="930" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-4" value="AuthCheck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-5" value="Check Client &amp;amp; Server Version Match" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-6" value="UpdateCluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-7" value="Response Return" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-8" value="UpdateCluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-9" value="Startup/Shutdown Validate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-10" value="Requst CPU Limte Validate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-11" value="Request Mem Limte Validate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-12" value="Request BackrestCpu Request Validate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-13" value="Request BackrestMem Request Validate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-15" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;获取要修改的cluster列表&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-16" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;修改pgcluster的AutoFail&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-17" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;修改&lt;br&gt;cluster.spec.Standby&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-20" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;修改&lt;br&gt;Startup&lt;br&gt;Shutdown&lt;br&gt;Resources-limits/request&lt;br&gt;CPULimit&lt;br&gt;CPURequest&lt;br&gt;MemLimit&lt;br&gt;MemRequest&lt;br&gt;BackrestResources:&lt;br&gt;BackrestLimits&lt;br&gt;BackrestResources&lt;br&gt;BackuRestCpu R/L&lt;br&gt;BackRestMem R/L&lt;br&gt;TableSpace&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1015" width="130" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-21" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;kubeapi修改cluster.spec&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i99rFXXE6MLXXWbWUxIi-14" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Tablespaces Validate&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-4" value="" style="endArrow=classic;html=1;strokeColor=#FF3333;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="390" as="sourcePoint" />
+            <mxPoint x="1130" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-5" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i99rFXXE6MLXXWbWUxIi-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="110" as="sourcePoint" />
+            <mxPoint x="930" y="109.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-6" value="&lt;font color=&quot;#000000&quot;&gt;API Server&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-7" value="&lt;font color=&quot;#000000&quot;&gt;ScaleClusterHandler&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-8" value="&lt;font color=&quot;#000000&quot;&gt;ScaleClusterHandler&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-9" value="&lt;font color=&quot;#000000&quot;&gt;从URL获取参数&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-10" value="&lt;font color=&quot;#000000&quot;&gt;从URL获取参数&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
