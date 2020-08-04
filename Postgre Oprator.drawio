@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T13:23:42.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="OsWdAu3OzhSDKaH3VgFR" version="13.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-08-04T13:40:39.147Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="YKDwj-4rUYvstcWG1pNl" version="13.4.2" type="github" pages="3">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="CreateCluster-APIServer">
-    <mxGraphModel dx="969" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="273" dy="151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-2" value="" style="endArrow=classic;html=1;strokeColor=#FF3333;" edge="1" parent="1" target="i99rFXXE6MLXXWbWUxIi-21">
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-2" value="" style="endArrow=classic;html=1;strokeColor=#FF3333;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="fJSiDYDz8LOzyxK8Tw9L-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1189.71" y="120" as="sourcePoint" />
             <mxPoint x="1189.71" y="3860" as="targetPoint" />
@@ -250,14 +250,86 @@
         <mxCell id="fJSiDYDz8LOzyxK8Tw9L-7" value="&lt;font color=&quot;#000000&quot;&gt;ScaleClusterHandler&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="1550" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-8" value="&lt;font color=&quot;#000000&quot;&gt;ScaleClusterHandler&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-8" value="&lt;font color=&quot;#000000&quot;&gt;ScaleCluster&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="1740" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fJSiDYDz8LOzyxK8Tw9L-9" value="&lt;font color=&quot;#000000&quot;&gt;从URL获取参数&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="1550" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-10" value="&lt;font color=&quot;#000000&quot;&gt;从URL获取参数&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-10" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(248 , 249 , 250)&quot;&gt;AuthCheck&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-11" value="Check Client &amp;amp; Server Version Match" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-12" value="ScaleCluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-13" value="Response Return" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-14" value="&lt;font color=&quot;#000000&quot;&gt;参数检查&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-15" value="&lt;font color=&quot;#000000&quot;&gt;检查当前cluster是否有update到Operator匹配verison，如果没有失败&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-16" value="&lt;font color=&quot;#000000&quot;&gt;准备pgreplica spec&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-17" value="&lt;font color=&quot;#000000&quot;&gt;获取扩展的rc值，循环&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-18" value="&lt;font color=&quot;#000000&quot;&gt;修改不同replica的名字及标签&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-21" value="&lt;font color=&quot;#000000&quot;&gt;发送到KubeAPI，创建pgreplica CRD&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-22" value="" style="endArrow=classic;html=1;strokeColor=#FF3333;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fJSiDYDz8LOzyxK8Tw9L-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1659.9999999999998" y="400.0000000000001" as="sourcePoint" />
+            <mxPoint x="1740" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-23" value="return" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1402.5" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-24" value="return" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1755" y="775" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-25" value="&lt;font color=&quot;#000000&quot;&gt;ScaleDownHandler&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2008" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-26" value="&lt;font color=&quot;#000000&quot;&gt;从URL获取参数&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2008" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-27" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(248 , 249 , 250)&quot;&gt;AuthCheck&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2008" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-28" value="Check Client &amp;amp; Server Version Match" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2008" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-29" value="ScaleDown" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2008" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-30" value="Response Return" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2008" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-31" value="ScaleDown" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-32" value="&lt;font color=&quot;#000000&quot;&gt;检查cluster是否存在&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-33" value="&lt;font color=&quot;#000000&quot;&gt;检查cluster是否shutdown&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-34" value="&lt;font color=&quot;#000000&quot;&gt;获取pod list&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fJSiDYDz8LOzyxK8Tw9L-35" value="&lt;font color=&quot;#000000&quot;&gt;pod list中是否有要scaledown的pod&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
