@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T07:58:34.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="LmflK0ttHYqj9FXSGd1s" version="13.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-04T08:02:08.596Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="ggZwiVb2hrPppi-LnAQR" version="13.4.2" type="github">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="CreateCluster">
-    <mxGraphModel dx="2085" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1472" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-57" value="" style="endArrow=classic;html=1;strokeColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.40999999999997" y="100" as="sourcePoint" />
+            <mxPoint x="319.40999999999997" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-56" value="" style="endArrow=classic;html=1;strokeColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519.17" y="80" as="sourcePoint" />
+            <mxPoint x="519.17" y="3820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yWhdLjkU5JAQqWD6CEfC-3" value="API URL路由分发，目前有暴露64个接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="170" width="130" height="20" as="geometry" />
         </mxCell>
@@ -109,7 +121,7 @@
         <mxCell id="yWhdLjkU5JAQqWD6CEfC-43" value="BackRestS3URIStyle检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="2720" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yWhdLjkU5JAQqWD6CEfC-44" value="创建CRD instance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-44" value="开始准备CRD instance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="2820" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yWhdLjkU5JAQqWD6CEfC-45" value="SecretFrom参数检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
