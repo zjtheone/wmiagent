@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T09:23:37.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Qu7Qvqq_YIip_jmssLVR" version="13.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-04T12:14:19.522Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="7-xHwAgNICduAj4Aa-B-" version="13.4.2" type="github" pages="3">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="CreateCluster-APIServer">
     <mxGraphModel dx="1787" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -236,6 +236,128 @@
         </mxCell>
         <mxCell id="5SKbVsiYGQw5b-h0bSiV-19" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;controllerManager.AddGroup&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="5SKbVsiYGQw5b-h0bSiV-1">
           <mxGeometry x="720.0000000000001" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xMILbbspwZ0wlmzrvvVz" name="pgcluster Operator">
+    <mxGraphModel dx="599" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
+        <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
+        <mxCell id="WuodhJGJsOka3TGEAUCe-1" value="获取cluster，查看状态如果为 processed不处理" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="250" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-2" value="将cluster obj放入队列" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="250" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-3" value="onAdd" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="250" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-4" value="onDelete" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="450" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-5" value="onUpdate" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="660" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-6" value="RunWorker" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="850" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-7" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;waitForShutdown&lt;/span&gt;&lt;/pre&gt;判定是否接受到stop信号，是则标记退出" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="850" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-8" value="&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;processNextItem&lt;br&gt;&lt;/span&gt;循环处理新增的Item" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="850" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="&lt;div&gt;RunWorker是一个长时间运行的函数，它将连续调用&lt;/div&gt;&lt;div&gt;processNextWorkItem函数用于读取和处理消息&lt;span&gt;工作队列。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="745" y="180" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-9" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;processNextItem&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1060" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-10" value="检查是否标记退出，是则退出循环" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1060" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-11" value="判定pgcluster相关的Deployment是否已经创建，是则退出不处理；" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1060" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-12" value="判定pgcluster是否已经创建，否则退出不处理；重试" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1060" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-15" value="RestoreFrom！=“”&lt;br&gt;是备份恢复" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1060" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-16" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;AddBootstrapRepo&lt;/span&gt;&lt;/pre&gt;创建BackRestRepo的Deployment" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1060" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-17" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;AddBootstrapRepo&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1250" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-18" value="判定restoreFrom的cluster的BackRest是否创建" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1250" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-19" value="&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;CreateRepoDeployment&lt;br&gt;&lt;/span&gt;创建Repo Deployment" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1250" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-20" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;AddClusterBootstrap&lt;/pre&gt;处理bootstrapping" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1060" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-21" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;AddClusterBootstrap&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1520" y="235" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-22" value="创建PGHAConfigMap" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1520" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-23" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#ffd966&quot;&gt;CreateMissingPostgreSQLVolumes&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;创建pvc dataVolume walVolume tablespaceVolume&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1520" y="425" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-24" value="添加BootstrapJob&lt;br&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;addClusterBootstrapJob&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1520" y="515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-25" value="设置cluster的状态为&lt;br&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #9876aa ; font-style: italic&quot;&gt;PgclusterStateBootstrapping&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1520" y="605" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-26" value="" style="endArrow=classic;html=1;strokeColor=#FF3333;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.663;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="WuodhJGJsOka3TGEAUCe-16" target="WuodhJGJsOka3TGEAUCe-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="661" as="sourcePoint" />
+            <mxPoint x="1380" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-27" value="" style="endArrow=classic;html=1;strokeColor=#FF3333;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.033;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="WuodhJGJsOka3TGEAUCe-20" target="WuodhJGJsOka3TGEAUCe-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="530" as="sourcePoint" />
+            <mxPoint x="1380" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-28" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;addClusterBootstrapJob&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1790" y="235" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-29" value="创建Bootstrap的Job Spec&lt;br&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;getBootstrapJobFields&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1790" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-30" value="如果WAL stroragetype设置，&lt;br&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;AddWALVolumeAndMountsToPostgreSQL&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1790" y="425" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-31" value="重置容器镜像" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1790" y="515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-34" value="发送给kubeAPI创建Job" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1790" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-37" value="" style="endArrow=classic;html=1;strokeColor=#FF3333;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="WuodhJGJsOka3TGEAUCe-24" target="WuodhJGJsOka3TGEAUCe-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="510" as="sourcePoint" />
+            <mxPoint x="1170" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-38" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;getBootstrapJobFields&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="2020" y="235" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-39" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;getClusterDeploymentFields&lt;/pre&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;准备BootstrapFiles&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="2020" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WuodhJGJsOka3TGEAUCe-40" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;getClusterDeploymentFields&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="2240" y="235" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
