@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T12:55:26.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="eK7W0hGOvz2EOnL2rZ1U" version="13.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-08-04T12:57:49.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="bdmFnoCeukisRKQSY5sv" version="13.4.2" type="github" pages="3">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="CreateCluster-APIServer">
     <mxGraphModel dx="1787" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -241,7 +241,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMILbbspwZ0wlmzrvvVz" name="pgcluster Operator">
-    <mxGraphModel dx="3513" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4683" dy="2590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
@@ -479,11 +479,20 @@
         <mxCell id="OV9-m6dmQ-1NdaY5KtbN-26" value="&lt;span&gt;deepEqual查看其它字段是否&lt;br&gt;修改&lt;br&gt;如pgbackrest resource，limites等&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
           <mxGeometry x="640" y="1525" width="160" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="OV9-m6dmQ-1NdaY5KtbN-27" value="&lt;font color=&quot;#000000&quot;&gt;修改Resource&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+        <mxCell id="OV9-m6dmQ-1NdaY5KtbN-27" value="&lt;font color=&quot;#000000&quot;&gt;修改pgbackrest Resource&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
           <mxGeometry x="660" y="1630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OV9-m6dmQ-1NdaY5KtbN-28" value="&lt;span&gt;deepEqual查看其它字段是否&lt;br&gt;修改&lt;br&gt;如pgbackrest resource，limites等&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+        <mxCell id="OV9-m6dmQ-1NdaY5KtbN-28" value="&lt;span&gt;deepEqual查看其它字段是否&lt;br&gt;修改&lt;br&gt;如pgBancer等&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
           <mxGeometry x="640" y="1730" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="OV9-m6dmQ-1NdaY5KtbN-29" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;updatePgBouncer&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="660" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OV9-m6dmQ-1NdaY5KtbN-30" value="&lt;span&gt;deepEqual查看其它字段是否&lt;br&gt;修改&lt;br&gt;如TablespaceMounts等&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="640" y="1940" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="OV9-m6dmQ-1NdaY5KtbN-31" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;updateTablespaces&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="660" y="2040" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
