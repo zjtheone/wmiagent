@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T14:02:38.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="pYxH2Epa6YnlK7rXW-Y4" version="13.4.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-08-04T14:04:37.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="KEJXokZWjMxnhxnutvqD" version="13.4.2" type="github" pages="6">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="1405" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,7 +151,7 @@
         <mxCell id="yWhdLjkU5JAQqWD6CEfC-51" value="创建BackRest的S3和SSH的Secret" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="3520" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yWhdLjkU5JAQqWD6CEfC-52" value="为新cluster创建workflow，id作为response参数返回" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-52" value="为新cluster创建workflow &lt;b&gt;pgtask&lt;/b&gt;，id作为response参数返回" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="3620" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yWhdLjkU5JAQqWD6CEfC-53" value="为集群创建CRD&lt;br&gt;pgcluster" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
