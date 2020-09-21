@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T13:53:25.839Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="H83kMMaZNn37SXFF_bs9" version="13.7.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-09-21T13:59:26.259Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="1Amjd68BG82CT_jOWFoT" version="13.7.3" type="github" pages="6">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
-    <mxGraphModel dx="1668" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4727" dy="2620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -469,7 +469,7 @@
         <mxCell id="7w1u605gqGHNuReGMgkZ-32" value="首先把所有已经存在的xxx-rmdata任务删除&lt;br&gt;Deletepgtask" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1125" y="2089" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7w1u605gqGHNuReGMgkZ-33" value="CreateRMDataTask" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7w1u605gqGHNuReGMgkZ-33" value="CreateRMDataTask&lt;br&gt;创建&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;PgtaskDeleteData&amp;nbsp;&lt;br&gt;task&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1125" y="2190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7w1u605gqGHNuReGMgkZ-34" value="" style="curved=1;endArrow=classic;html=1;exitX=0;exitY=0.611;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7w1u605gqGHNuReGMgkZ-35" target="7w1u605gqGHNuReGMgkZ-31">
