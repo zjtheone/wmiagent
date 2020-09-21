@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T13:59:26.259Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="1Amjd68BG82CT_jOWFoT" version="13.7.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-09-21T14:13:59.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="lmia69u7rsl27rcbBGJ4" version="13.7.3" type="github" pages="6">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="4727" dy="2620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -566,7 +566,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMILbbspwZ0wlmzrvvVz" name="pgcluster Operator">
-    <mxGraphModel dx="1405" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
@@ -852,14 +852,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="F1ze-gBwSKeawxmxo4Qc" name="pgtask Operator">
-    <mxGraphModel dx="1405" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="qcJI7E0Aq2EKTSZtyW2Y-0" />
         <mxCell id="qcJI7E0Aq2EKTSZtyW2Y-1" parent="qcJI7E0Aq2EKTSZtyW2Y-0" />
-        <mxCell id="3ye-nWwi0U054c5yJO7_-0" value="获取Replica，查看状态如果为 processed不处理" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
+        <mxCell id="3ye-nWwi0U054c5yJO7_-0" value="获取task，查看状态如果为 processed不处理" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
           <mxGeometry x="250" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3ye-nWwi0U054c5yJO7_-1" value="将Replicas obj放入队列" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
+        <mxCell id="3ye-nWwi0U054c5yJO7_-1" value="将task obj放入队列" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
           <mxGeometry x="250" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3ye-nWwi0U054c5yJO7_-2" value="onAdd" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
@@ -876,6 +876,36 @@
         </mxCell>
         <mxCell id="3ye-nWwi0U054c5yJO7_-6" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;processNextItem&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
           <mxGeometry x="1060" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-0" value="CheckTask Duplicate&lt;br&gt;and skip" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+          <mxGeometry x="1270" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-1" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;taskoperator.RemoveData&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+          <mxGeometry x="1270" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-2" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;crv1.&lt;span style=&quot;color: #9876aa ; font-style: italic&quot;&gt;PgtaskDeleteData&lt;/span&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+          <mxGeometry x="1080" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-3" value="" style="endArrow=classic;html=1;" edge="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1" source="3ye-nWwi0U054c5yJO7_-6" target="lpakV_ToNmtd2w5FKSgh-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="510" as="sourcePoint" />
+            <mxPoint x="1150" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-4" value="Yes" style="endArrow=classic;html=1;entryX=0;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1" source="lpakV_ToNmtd2w5FKSgh-2" target="lpakV_ToNmtd2w5FKSgh-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="510" as="sourcePoint" />
+            <mxPoint x="1150" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-5" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;RemoveData&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+          <mxGeometry x="1480" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-6" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;PatchpgtaskDeleteDataStatus&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+          <mxGeometry x="1480" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-7" value="创建Job来remove data" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+          <mxGeometry x="1480" y="585" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
