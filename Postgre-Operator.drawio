@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-22T11:02:52.629Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="iYZwVQ_HoO-nQy3w21nq" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-22T11:09:41.930Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="WYMBAZzSt7Ozan-o2jRt" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="2836" dy="1572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -666,7 +666,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMILbbspwZ0wlmzrvvVz" name="pgcluster Operator">
-    <mxGraphModel dx="1186" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="678" dy="327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
@@ -979,7 +979,7 @@
         <mxCell id="0Dtra9Rd_sB84bFZ9sfG-18" value="&lt;font color=&quot;#000000&quot;&gt;修改 pghaScope+&quot;-config&quot; 的CM，修改annotation里面的config的 json，pause值&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
           <mxGeometry x="250" y="1460" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="0Dtra9Rd_sB84bFZ9sfG-20" value="&lt;font color=&quot;#000000&quot;&gt;DisableStandby&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=#d5e8d4;align=center;strokeColor=#82b366;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+        <mxCell id="0Dtra9Rd_sB84bFZ9sfG-20" value="&lt;font color=&quot;#000000&quot;&gt;DisableStandby ？&lt;br&gt;修改pgha_scope的configMap以及dcs&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=#d5e8d4;align=center;strokeColor=#82b366;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
           <mxGeometry x="250" y="1620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0Dtra9Rd_sB84bFZ9sfG-21" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#FF0000;fontSize=15;fontColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.008;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="OV9-m6dmQ-1NdaY5KtbN-23" target="0Dtra9Rd_sB84bFZ9sfG-20">
