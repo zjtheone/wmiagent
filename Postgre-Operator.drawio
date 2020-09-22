@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-22T08:33:12.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="AA0DEtBldP_a0xZQ8BZL" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-22T08:36:03.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="NXsfiJ5FZPKTJfjlGFth" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="4727" dy="2620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -937,7 +937,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b-SqA7Wx7fL02CaDULjZ" name="jobController">
-    <mxGraphModel dx="473" dy="262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="567" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iMy7SZl4hCXhZ_G81ovo-0" />
         <mxCell id="iMy7SZl4hCXhZ_G81ovo-1" parent="iMy7SZl4hCXhZ_G81ovo-0" />
@@ -1394,7 +1394,7 @@
         <mxCell id="Ic3XdyH0V-WVmgo7VTaO-56" value="removeService" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
           <mxGeometry x="1680" y="2120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-57" value="removeAddons" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
+        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-57" value="removeAddons&lt;br&gt;Delete pgbouncer的Deployment及service" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
           <mxGeometry x="1680" y="2210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ic3XdyH0V-WVmgo7VTaO-58" value="removePgreplicas" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
@@ -1452,7 +1452,7 @@
             <mxPoint x="1920" y="1750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-74" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#FF0000;fontColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iMy7SZl4hCXhZ_G81ovo-1" source="Ic3XdyH0V-WVmgo7VTaO-51" target="Ic3XdyH0V-WVmgo7VTaO-71">
+        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-74" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#FF0000;fontColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iMy7SZl4hCXhZ_G81ovo-1" source="Ic3XdyH0V-WVmgo7VTaO-55" target="Ic3XdyH0V-WVmgo7VTaO-71">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1870" y="1940" as="sourcePoint" />
             <mxPoint x="1920" y="1890" as="targetPoint" />
