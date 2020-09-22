@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-22T08:36:03.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="NXsfiJ5FZPKTJfjlGFth" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-22T08:44:30.170Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="pxjXLeN0RVGg_Ax3_Ks2" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="4727" dy="2620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -937,7 +937,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b-SqA7Wx7fL02CaDULjZ" name="jobController">
-    <mxGraphModel dx="567" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4727" dy="2620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iMy7SZl4hCXhZ_G81ovo-0" />
         <mxCell id="iMy7SZl4hCXhZ_G81ovo-1" parent="iMy7SZl4hCXhZ_G81ovo-0" />
@@ -1403,22 +1403,22 @@
         <mxCell id="Ic3XdyH0V-WVmgo7VTaO-59" value="removePgtasks" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
           <mxGeometry x="1680" y="2390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-60" value="removeClusterConfigmaps" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
-          <mxGeometry x="1680" y="2480" width="120" height="60" as="geometry" />
+        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-60" value="removeClusterConfigmaps&lt;br&gt;删除4个configmap&lt;br&gt;pgha-config&lt;br&gt;leader&lt;br&gt;config&lt;br&gt;failover" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
+          <mxGeometry x="1680" y="2460" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-61" value="removeData？Y&lt;br&gt;getInstancePVC是，&lt;br&gt;删除PVC" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
+        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-61" value="removeData？Y&lt;br&gt;getInstancePVC list，&lt;br&gt;删除PVC" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
           <mxGeometry x="1680" y="2570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-62" value="reomoveBackupJobs" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
+        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-62" value="reomoveBackupJobs&lt;br&gt;Job selector：backrest+pgdump" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
           <mxGeometry x="1680" y="2670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-63" value="removeBackupRepo" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
+        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-63" value="removeBackupRepo&lt;br&gt;删除backrest-shared-repo的&lt;br&gt;Deployment" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
           <mxGeometry x="1680" y="2760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-64" value="removeBackupSecrets" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
+        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-64" value="removeBackupSecrets&lt;br&gt;删除backu相关的secret&lt;br&gt;backrest-repo-config" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
           <mxGeometry x="1680" y="2970" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-65" value="removeAllBackupPVCs" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
+        <mxCell id="Ic3XdyH0V-WVmgo7VTaO-65" value="removeAllBackupPVCs&lt;br&gt;pgDumpPVC&lt;br&gt;pgBackRestRepoPVC" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
           <mxGeometry x="1680" y="3060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ic3XdyH0V-WVmgo7VTaO-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=#FFFFFF;strokeColor=#FF0000;fontColor=none;" edge="1" parent="iMy7SZl4hCXhZ_G81ovo-1" source="Ic3XdyH0V-WVmgo7VTaO-66">
