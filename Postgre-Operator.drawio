@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-22T09:51:05.384Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="BTIsnc90i8TNrsWVJLAK" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-22T09:55:26.077Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="RHEKZ1-OrCTcM8sGUTmV" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
-    <mxGraphModel dx="675" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2836" dy="1572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,7 +61,7 @@
         <mxCell id="yWhdLjkU5JAQqWD6CEfC-3" value="API URL路由分发，目前有暴露64个接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="170" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yWhdLjkU5JAQqWD6CEfC-6" value="CreateClusterHandler" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="yWhdLjkU5JAQqWD6CEfC-6" value="CreateClusterHandler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="260" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yWhdLjkU5JAQqWD6CEfC-7" value="AuthCheck" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -572,8 +572,30 @@
         <mxCell id="eULdPivSgUm90FJHOyYH-24" value="处理backrest CPU &amp;amp; Mem Requst&lt;br&gt;，修改pgcluster的spec.BackrestResources" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1715" y="2780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eULdPivSgUm90FJHOyYH-25" value="处理Tablespaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eULdPivSgUm90FJHOyYH-25" value="处理Tablespaces,&lt;br&gt;修改spec.TablespaceMounts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1715" y="2870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-26" value="调用kubeapi.Updatepgcluter修改到etcd里面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="2970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-27" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1710" y="3080" as="sourcePoint" />
+            <mxPoint x="1715" y="2161.67" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1680" y="2181.67" />
+              <mxPoint x="1670" y="2141.67" />
+              <mxPoint x="1715" y="2161.67" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-28" value="循环" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eULdPivSgUm90FJHOyYH-27">
+          <mxGeometry x="0.8413" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-29" value="记录修改过的cluster到Results" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="3060" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -644,7 +666,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMILbbspwZ0wlmzrvvVz" name="pgcluster Operator">
-    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2363" dy="1310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
