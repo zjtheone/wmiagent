@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-22T09:33:57.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="m8xp8nswVAugGHyhDdOG" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-22T09:51:05.384Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="BTIsnc90i8TNrsWVJLAK" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
-    <mxGraphModel dx="2363" dy="1310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="675" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -541,6 +541,39 @@
         </mxCell>
         <mxCell id="eULdPivSgUm90FJHOyYH-14" value="API Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1550" y="1724" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-15" value="参数合理性检查&lt;br&gt;Startup&lt;br&gt;Shutdown&lt;br&gt;CPU/Memory Value&lt;br&gt;pgBackRest CPU/Mem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="1889" width="130" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-16" value="根据参数获取cluster列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="2070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-17" value="处理Autofail，修改pgcluster的lable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="2160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-18" value="处理Standby，修改pgcluster的spec.standby" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="2249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-19" value="处理Standby，修改pgcluster的spec.standby" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="2330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-20" value="处理Startup，修改pgcluster的spec.Shutdown" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-21" value="处理CPU &amp;amp; Mem Limit&lt;br&gt;，修改pgcluster的spec.Limits" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="2520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-22" value="处理CPU &amp;amp; Mem Request&lt;br&gt;，修改pgcluster的spec.Resource" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="2600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-23" value="处理backrest CPU &amp;amp; Mem Limit&lt;br&gt;，修改pgcluster的spec.BackrestLimits" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="2690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-24" value="处理backrest CPU &amp;amp; Mem Requst&lt;br&gt;，修改pgcluster的spec.BackrestResources" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="2780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-25" value="处理Tablespaces" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="2870" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
