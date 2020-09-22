@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-22T08:44:30.170Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="pxjXLeN0RVGg_Ax3_Ks2" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-22T09:33:57.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="m8xp8nswVAugGHyhDdOG" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
-    <mxGraphModel dx="4727" dy="2620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2363" dy="1310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -436,7 +436,7 @@
             <mxPoint x="930" y="1819.6599999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7w1u605gqGHNuReGMgkZ-21" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;DeleteClusterHandler&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+        <mxCell id="7w1u605gqGHNuReGMgkZ-21" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: menlo; font-size: 15px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 198, 109); font-size: 15px;&quot;&gt;DeleteClusterHandler&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;align=center;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="930" y="1790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7w1u605gqGHNuReGMgkZ-22" value="AuthCheck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -496,6 +496,51 @@
         </mxCell>
         <mxCell id="7w1u605gqGHNuReGMgkZ-38" value="API Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="955" y="1720" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;UpdateClusterHandler&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-3" value="&lt;font color=&quot;#000000&quot;&gt;API Server&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-4" value="从请求报文中获取参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="1889" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-5" value="AuthCheck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="1989" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-6" value="准备返回参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="2089" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-7" value="Check Client &amp;amp; Server Version Match" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="2189" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-8" value="UpdateCluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="2289" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-9" value="UpdateCluster" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-10" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#FF0000;fontColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7w1u605gqGHNuReGMgkZ-27" target="7w1u605gqGHNuReGMgkZ-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1950" y="2090" as="sourcePoint" />
+            <mxPoint x="2000" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-11" value="return" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1525" y="2380" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-12" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#FF0000;fontColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="eULdPivSgUm90FJHOyYH-8" target="eULdPivSgUm90FJHOyYH-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1950" y="2090" as="sourcePoint" />
+            <mxPoint x="2000" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="1514" width="20" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="eULdPivSgUm90FJHOyYH-14" value="API Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="1724" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -856,7 +901,7 @@
       <root>
         <mxCell id="qcJI7E0Aq2EKTSZtyW2Y-0" />
         <mxCell id="qcJI7E0Aq2EKTSZtyW2Y-1" parent="qcJI7E0Aq2EKTSZtyW2Y-0" />
-        <mxCell id="lpakV_ToNmtd2w5FKSgh-11" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#FF0000;dashed=1;strokeColor=#FF0000;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-11" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;dashed=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
           <mxGeometry x="1020" y="340" width="630" height="420" as="geometry" />
         </mxCell>
         <mxCell id="lpakV_ToNmtd2w5FKSgh-10" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1" source="lpakV_ToNmtd2w5FKSgh-5" target="lpakV_ToNmtd2w5FKSgh-8">
@@ -937,7 +982,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b-SqA7Wx7fL02CaDULjZ" name="jobController">
-    <mxGraphModel dx="4727" dy="2620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2363" dy="1310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iMy7SZl4hCXhZ_G81ovo-0" />
         <mxCell id="iMy7SZl4hCXhZ_G81ovo-1" parent="iMy7SZl4hCXhZ_G81ovo-0" />
