@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T07:32:18.651Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="F71CEgg-y-q-6nQlSNRs" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-23T07:39:55.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="2sgC2bcsHyql3o7nUwD-" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="5688" dy="3176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -670,6 +670,18 @@
       <root>
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
+        <mxCell id="XMR8rtMzUx9ApkxdVtbs-7" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="WuodhJGJsOka3TGEAUCe-28" target="WuodhJGJsOka3TGEAUCe-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1440" y="520" as="sourcePoint" />
+            <mxPoint x="1490" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMR8rtMzUx9ApkxdVtbs-6" value="" style="endArrow=classic;html=1;fontColor=#000000;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" target="WuodhJGJsOka3TGEAUCe-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1580" y="320" as="sourcePoint" />
+            <mxPoint x="1490" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hlfeTQx6_Cnpnqpu5m7U-38" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="hlfeTQx6_Cnpnqpu5m7U-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="870" y="2160" as="sourcePoint" />
@@ -1319,6 +1331,12 @@
         </mxCell>
         <mxCell id="XMR8rtMzUx9ApkxdVtbs-5" value="return" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
           <mxGeometry x="1490" y="2270" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XMR8rtMzUx9ApkxdVtbs-8" value="从已经存在的数据源恢复不是从&lt;br&gt;现存running的cluster上恢复" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1235" y="195" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XMR8rtMzUx9ApkxdVtbs-9" value="从现存的running的cluster上恢复" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1485" y="215" width="190" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
