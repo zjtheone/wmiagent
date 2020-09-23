@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T10:33:58.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="uXY6xKOTCB-tqIyXmF-z" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-23T10:37:50.655Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="k5abUbMCMhish66C8qtk" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
-    <mxGraphModel dx="5688" dy="3176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5688" dy="2980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -601,7 +601,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2LHnsUQI_TxQHrFFFeV_" name="Operator Arch">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="5SKbVsiYGQw5b-h0bSiV-0" />
         <mxCell id="5SKbVsiYGQw5b-h0bSiV-1" parent="5SKbVsiYGQw5b-h0bSiV-0" />
@@ -666,7 +666,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMILbbspwZ0wlmzrvvVz" name="pgcluster Operator">
-    <mxGraphModel dx="2222" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4863" dy="2129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
@@ -1345,7 +1345,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DfO7OO4ywRAmhcDevog4" name="pgreplica Operator">
-    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="mUrVFgba5sf7J21noUTQ-0" />
         <mxCell id="mUrVFgba5sf7J21noUTQ-1" parent="mUrVFgba5sf7J21noUTQ-0" />
@@ -1374,14 +1374,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="F1ze-gBwSKeawxmxo4Qc" name="pgtask Operator">
-    <mxGraphModel dx="1668" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="qcJI7E0Aq2EKTSZtyW2Y-0" />
         <mxCell id="qcJI7E0Aq2EKTSZtyW2Y-1" parent="qcJI7E0Aq2EKTSZtyW2Y-0" />
-        <mxCell id="lpakV_ToNmtd2w5FKSgh-11" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;dashed=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-11" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;dashed=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
           <mxGeometry x="1020" y="340" width="630" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="lpakV_ToNmtd2w5FKSgh-10" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1" source="lpakV_ToNmtd2w5FKSgh-5" target="lpakV_ToNmtd2w5FKSgh-8">
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-10" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" source="lpakV_ToNmtd2w5FKSgh-5" target="lpakV_ToNmtd2w5FKSgh-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1430" y="610" as="sourcePoint" />
             <mxPoint x="1510" y="810" as="targetPoint" />
@@ -1408,40 +1408,40 @@
         <mxCell id="3ye-nWwi0U054c5yJO7_-6" value="&lt;pre style=&quot;font-family: menlo; font-size: 9pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;processNextItem&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
           <mxGeometry x="1060" y="230" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lpakV_ToNmtd2w5FKSgh-0" value="CheckTask Duplicate&lt;br&gt;and skip" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-0" value="CheckTask Duplicate&lt;br&gt;and skip" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
           <mxGeometry x="1270" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lpakV_ToNmtd2w5FKSgh-1" value="&lt;pre style=&quot;font-family: menlo; font-size: 9pt;&quot;&gt;taskoperator.RemoveData&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-1" value="&lt;pre style=&quot;font-family: menlo; font-size: 9pt;&quot;&gt;taskoperator.RemoveData&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
           <mxGeometry x="1270" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lpakV_ToNmtd2w5FKSgh-2" value="&lt;pre style=&quot;font-family: menlo; font-size: 9pt;&quot;&gt;crv1.&lt;span style=&quot;font-style: italic;&quot;&gt;PgtaskDeleteData&lt;/span&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-2" value="&lt;pre style=&quot;font-family: menlo; font-size: 9pt;&quot;&gt;crv1.&lt;span style=&quot;font-style: italic;&quot;&gt;PgtaskDeleteData&lt;/span&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
           <mxGeometry x="1080" y="380" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lpakV_ToNmtd2w5FKSgh-3" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1" source="3ye-nWwi0U054c5yJO7_-6" target="lpakV_ToNmtd2w5FKSgh-2">
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-3" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" source="3ye-nWwi0U054c5yJO7_-6" target="lpakV_ToNmtd2w5FKSgh-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1100" y="510" as="sourcePoint" />
             <mxPoint x="1150" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lpakV_ToNmtd2w5FKSgh-4" value="Yes" style="endArrow=classic;html=1;entryX=0;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1" source="lpakV_ToNmtd2w5FKSgh-2" target="lpakV_ToNmtd2w5FKSgh-0">
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-4" value="Yes" style="endArrow=classic;html=1;entryX=0;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FFFFFF;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" source="lpakV_ToNmtd2w5FKSgh-2" target="lpakV_ToNmtd2w5FKSgh-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1100" y="510" as="sourcePoint" />
             <mxPoint x="1150" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lpakV_ToNmtd2w5FKSgh-5" value="&lt;pre style=&quot;font-family: menlo; font-size: 9pt;&quot;&gt;RemoveData&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-5" value="&lt;pre style=&quot;font-family: menlo; font-size: 9pt;&quot;&gt;RemoveData&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
           <mxGeometry x="1480" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lpakV_ToNmtd2w5FKSgh-6" value="&lt;pre style=&quot;font-family: menlo; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;menlo&amp;quot; ; font-size: 9pt&quot;&gt;PatchpgtaskDeleteDataStatus&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-6" value="&lt;pre style=&quot;font-family: menlo; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;menlo&amp;quot; ; font-size: 9pt&quot;&gt;PatchpgtaskDeleteDataStatus&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
           <mxGeometry x="1480" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lpakV_ToNmtd2w5FKSgh-7" value="创建Job来remove data" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-7" value="创建Job来remove data" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
           <mxGeometry x="1480" y="585" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lpakV_ToNmtd2w5FKSgh-8" value="&lt;pre style=&quot;font-family: menlo; font-size: 9pt;&quot;&gt;publishDeleteCluster&lt;/pre&gt;&lt;pre style=&quot;font-family: menlo; font-size: 9pt;&quot;&gt;发送EventDeleteCluster消息&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;labelBorderColor=#000000;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-8" value="&lt;pre style=&quot;font-family: menlo; font-size: 9pt;&quot;&gt;publishDeleteCluster&lt;/pre&gt;&lt;pre style=&quot;font-family: menlo; font-size: 9pt;&quot;&gt;发送EventDeleteCluster消息&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;labelBorderColor=#000000;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
           <mxGeometry x="1480" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lpakV_ToNmtd2w5FKSgh-9" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1" source="lpakV_ToNmtd2w5FKSgh-1" target="lpakV_ToNmtd2w5FKSgh-5">
+        <mxCell id="lpakV_ToNmtd2w5FKSgh-9" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontColor=#FF0000;strokeColor=#FF0000;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" source="lpakV_ToNmtd2w5FKSgh-1" target="lpakV_ToNmtd2w5FKSgh-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1430" y="610" as="sourcePoint" />
             <mxPoint x="1480" y="560" as="targetPoint" />
@@ -1450,16 +1450,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="1wsVWBvf2OMwq2McIXJo" name="Operater ansible installer">
-    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="2_bX3AumPz9R5QfefKsD-0" />
-        <mxCell id="2_bX3AumPz9R5QfefKsD-1" parent="2_bX3AumPz9R5QfefKsD-0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="b-SqA7Wx7fL02CaDULjZ" name="jobController">
-    <mxGraphModel dx="1673" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iMy7SZl4hCXhZ_G81ovo-0" />
         <mxCell id="iMy7SZl4hCXhZ_G81ovo-1" parent="iMy7SZl4hCXhZ_G81ovo-0" />
@@ -2081,6 +2073,14 @@
         <mxCell id="ly2RZezDmIV3nVWTeRpN-24" value="return" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fontColor=#000000;align=center;" vertex="1" parent="iMy7SZl4hCXhZ_G81ovo-1">
           <mxGeometry x="1170" y="2910" width="80" height="70" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1wsVWBvf2OMwq2McIXJo" name="Operater ansible installer">
+    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="2_bX3AumPz9R5QfefKsD-0" />
+        <mxCell id="2_bX3AumPz9R5QfefKsD-1" parent="2_bX3AumPz9R5QfefKsD-0" />
       </root>
     </mxGraphModel>
   </diagram>
