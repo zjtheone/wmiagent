@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T12:34:45.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="LA7dGuac-I5R2luBpWYn" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-23T12:36:37.125Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="VI5ApLp4JTYpfgN2iAYe" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1435,9 +1435,6 @@
       <root>
         <mxCell id="qcJI7E0Aq2EKTSZtyW2Y-0" />
         <mxCell id="qcJI7E0Aq2EKTSZtyW2Y-1" parent="qcJI7E0Aq2EKTSZtyW2Y-0" />
-        <mxCell id="yz_hS5F5IR50gcEX7vwM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1" source="lpakV_ToNmtd2w5FKSgh-11" target="yz_hS5F5IR50gcEX7vwM-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="lpakV_ToNmtd2w5FKSgh-11" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;dashed=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="qcJI7E0Aq2EKTSZtyW2Y-1" vertex="1">
           <mxGeometry x="1020" y="340" width="630" height="420" as="geometry" />
         </mxCell>
@@ -1514,7 +1511,7 @@
           <mxGeometry x="1250" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yz_hS5F5IR50gcEX7vwM-3" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;quot;consolas&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;//&amp;nbsp;AddUpgrade&amp;nbsp;implements&amp;nbsp;the&amp;nbsp;upgrade&amp;nbsp;workflow&amp;nbsp;in&amp;nbsp;accordance&amp;nbsp;with&amp;nbsp;the&amp;nbsp;received&amp;nbsp;pgtask&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;//&amp;nbsp;the&amp;nbsp;general&amp;nbsp;process&amp;nbsp;is&amp;nbsp;outlined&amp;nbsp;below:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;//&amp;nbsp;1)&amp;nbsp;get&amp;nbsp;the&amp;nbsp;existing&amp;nbsp;pgcluster&amp;nbsp;CRD&amp;nbsp;instance&amp;nbsp;that&amp;nbsp;matches&amp;nbsp;the&amp;nbsp;name&amp;nbsp;provided&amp;nbsp;in&amp;nbsp;the&amp;nbsp;pgtask&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;//&amp;nbsp;2)&amp;nbsp;Patch&amp;nbsp;the&amp;nbsp;existing&amp;nbsp;services&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;//&amp;nbsp;3)&amp;nbsp;Determine&amp;nbsp;the&amp;nbsp;current&amp;nbsp;Primary&amp;nbsp;PVC&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;//&amp;nbsp;4)&amp;nbsp;Scale&amp;nbsp;down&amp;nbsp;existing&amp;nbsp;replicas&amp;nbsp;and&amp;nbsp;store&amp;nbsp;the&amp;nbsp;number&amp;nbsp;for&amp;nbsp;recreation&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;//&amp;nbsp;5)&amp;nbsp;Delete&amp;nbsp;the&amp;nbsp;various&amp;nbsp;resources&amp;nbsp;that&amp;nbsp;will&amp;nbsp;need&amp;nbsp;to&amp;nbsp;be&amp;nbsp;recreated&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;//&amp;nbsp;6)&amp;nbsp;Recreate&amp;nbsp;the&amp;nbsp;BackrestRepo&amp;nbsp;secret,&amp;nbsp;since&amp;nbsp;the&amp;nbsp;key&amp;nbsp;encryption&amp;nbsp;algorithm&amp;nbsp;has&amp;nbsp;been&amp;nbsp;updated&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;//&amp;nbsp;7)&amp;nbsp;Update&amp;nbsp;the&amp;nbsp;existing&amp;nbsp;pgcluster&amp;nbsp;CRD&amp;nbsp;instance&amp;nbsp;to&amp;nbsp;match&amp;nbsp;the&amp;nbsp;current&amp;nbsp;version&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;//&amp;nbsp;8)&amp;nbsp;Submit&amp;nbsp;the&amp;nbsp;pgcluster&amp;nbsp;CRD&amp;nbsp;for&amp;nbsp;recreation&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="qcJI7E0Aq2EKTSZtyW2Y-1">
-          <mxGeometry x="290" y="890" width="40" height="20" as="geometry" />
+          <mxGeometry x="380" y="750" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
