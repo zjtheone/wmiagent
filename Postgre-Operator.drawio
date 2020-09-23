@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T06:58:38.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="ZvywXJtVsJrnD4QuDeQg" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-23T07:06:00.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="ER9ZV1AN0zp5dTeyvwdy" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="1060" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -766,19 +766,24 @@
           <mxGeometry x="1060" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-11" value="判定pgcluster相关的Deployment是否已经创建，是则退出不处理；" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1060" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="1060" y="412" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WuodhJGJsOka3TGEAUCe-12" value="判定pgcluster是否已经创建，否则退出不处理；重试" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1060" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="WuodhJGJsOka3TGEAUCe-12" value="判定pgcluster是否已经创建，否，则退出不处理；重试" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
+          <mxGeometry x="1060" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OV9-m6dmQ-1NdaY5KtbN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;" parent="Tet4A5Ykn7ojSv5wKa61-1" source="WuodhJGJsOka3TGEAUCe-15" target="WuodhJGJsOka3TGEAUCe-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-53" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="OV9-m6dmQ-1NdaY5KtbN-7">
+          <mxGeometry x="-0.2727" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-15" value="RestoreFrom！=“”&lt;br&gt;是备份恢复" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1060" y="610" width="120" height="80" as="geometry" />
+          <mxGeometry x="1060" y="740" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-16" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;AddBootstrapRepo&lt;/span&gt;&lt;/pre&gt;创建BackRestRepo的Deployment" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1060" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="1060" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-17" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;AddBootstrapRepo&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
           <mxGeometry x="1250" y="230" width="120" height="80" as="geometry" />
@@ -790,7 +795,7 @@
           <mxGeometry x="1250" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-20" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;AddClusterBootstrap&lt;/pre&gt;处理bootstrapping" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1060" y="820" width="120" height="60" as="geometry" />
+          <mxGeometry x="1060" y="905" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-21" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;AddClusterBootstrap&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
           <mxGeometry x="1520" y="235" width="120" height="80" as="geometry" />
@@ -874,10 +879,10 @@
           <mxGeometry x="2020" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-47" value="设置pgcluter的状态为&lt;br&gt;pgClusterStateProcessed" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1060" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="1060" y="1025" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-48" value="AddClusterBase" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1060" y="1050" width="120" height="60" as="geometry" />
+          <mxGeometry x="1060" y="1135" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-49" value="AddClusterBase" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
           <mxGeometry x="1460" y="860" width="120" height="80" as="geometry" />
@@ -1277,6 +1282,21 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="870" y="2970" as="sourcePoint" />
             <mxPoint x="920" y="2920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-51" value="判定处于completed 或 Bootstrapping状态则推出不处理" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1060" y="575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-52" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;addIdentifier&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1060" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-54" value="Y" style="endArrow=classic;html=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="WuodhJGJsOka3TGEAUCe-15" target="WuodhJGJsOka3TGEAUCe-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="690" as="sourcePoint" />
+            <mxPoint x="1280" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="810" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
