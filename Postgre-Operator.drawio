@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T06:26:15.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="JGVLd2ox88_0487IVQEz" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-23T06:27:07.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="_J2zT1WT2ObVOPS4zleF" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="1060" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -666,10 +666,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMILbbspwZ0wlmzrvvVz" name="pgcluster Operator">
-    <mxGraphModel dx="2473" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4355" dy="1985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-31" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="OV9-m6dmQ-1NdaY5KtbN-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1340" as="sourcePoint" />
+            <mxPoint x="720" y="2160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0Dtra9Rd_sB84bFZ9sfG-21" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#FF0000;fontSize=15;fontColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.008;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" parent="Tet4A5Ykn7ojSv5wKa61-1" source="OV9-m6dmQ-1NdaY5KtbN-23" target="0Dtra9Rd_sB84bFZ9sfG-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="1520" as="sourcePoint" />
