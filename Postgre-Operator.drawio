@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T07:20:40.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="5dWTo2robdiswMfzBdFG" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-23T07:23:55.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="70d4pfXg5MkBE5h5TaUN" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
-    <mxGraphModel dx="1060" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5688" dy="3176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -666,7 +666,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMILbbspwZ0wlmzrvvVz" name="pgcluster Operator">
-    <mxGraphModel dx="2831" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="0" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
@@ -881,7 +881,7 @@
         <mxCell id="WuodhJGJsOka3TGEAUCe-47" value="设置pgcluter的状态为&lt;br&gt;pgClusterStateProcessed" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
           <mxGeometry x="1060" y="1025" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WuodhJGJsOka3TGEAUCe-48" value="AddClusterBase" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
+        <mxCell id="WuodhJGJsOka3TGEAUCe-48" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;clusterOperator.AddClusterBase&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
           <mxGeometry x="1060" y="1135" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-49" value="AddClusterBase" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
