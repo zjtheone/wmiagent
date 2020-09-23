@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T03:54:46.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="fHIrZ-_WDG_huIT8f0MD" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-23T04:09:47.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="3RbDsuIIy7m7Gu7y7Hb2" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="1060" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -666,10 +666,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMILbbspwZ0wlmzrvvVz" name="pgcluster Operator">
-    <mxGraphModel dx="883" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1647" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-26" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="hlfeTQx6_Cnpnqpu5m7U-12" target="hlfeTQx6_Cnpnqpu5m7U-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="2560" as="sourcePoint" />
+            <mxPoint x="440" y="2510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hlfeTQx6_Cnpnqpu5m7U-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="0Dtra9Rd_sB84bFZ9sfG-11" target="0Dtra9Rd_sB84bFZ9sfG-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="730" y="1480" as="sourcePoint" />
@@ -1043,10 +1049,25 @@
           <mxGeometry x="320" y="2120" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hlfeTQx6_Cnpnqpu5m7U-18" value="找到的dcsConfigMap，修改里面&lt;span style=&quot;color: rgb(206 , 145 , 120) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;standby_cluster字段信息&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Bnbsp%3B%E5%88%A0%E9%99%A4Primary%E5%92%8CBackrestRepo%E7%9A%84PVC%E7%84%B6%E5%90%8E%E9%87%8D%E5%BB%BA%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22250%22%20y%3D%222160%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
-          <mxGeometry x="250" y="2280" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="2240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-20" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #6a9955&quot;&gt;//&amp;nbsp;find&amp;nbsp;the&amp;nbsp;&quot;config&quot;&amp;nbsp;configMap&amp;nbsp;created&amp;nbsp;by&amp;nbsp;Patroni也即DCS&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
-          <mxGeometry x="300" y="2250" width="40" height="20" as="geometry" />
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-20" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #6a9955&quot;&gt;//&amp;nbsp;find&amp;nbsp;the&amp;nbsp;&quot;config&quot;&amp;nbsp;configMap&amp;nbsp;created&amp;nbsp;by&amp;nbsp;Patroni如：&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#6a9955&quot; face=&quot;consolas, courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;hippo-standby2-config&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 19px&quot;&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe&quot;&gt;standbyClusterConfigJSON&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #ce9178&quot;&gt;`&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&quot;create_replica_methods&quot;:&amp;nbsp;[&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&quot;pgbackrest_standby&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;],&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&quot;restore_command&quot;:&amp;nbsp;&quot;source&amp;nbsp;/opt/cpm/bin/pgbackrest/pgbackrest-set-env.sh&amp;nbsp;&amp;amp;&amp;amp;&amp;nbsp;pgbackrest&amp;nbsp;archive-get&amp;nbsp;%f&amp;nbsp;\&quot;%p\&quot;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;}`&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="-40" y="2320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-22" value="&lt;span&gt;删除leader ConfigMap&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="250" y="2340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-23" value="&lt;span&gt;修改CM *-pgha-config里面replica-bootstrap-repo-type 字段为s3，确保用s3来创建standby&lt;br&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%26gt%3B%E5%88%A0%E9%99%A4leader%20ConfigMap%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22250%22%20y%3D%222340%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="250" y="2420" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-24" value="&lt;font style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;更新 -pgha-config.data 里面-dcs-config&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;&amp;nbsp;相关部分信息&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="250" y="2550" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-25" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;publishStandbyEnable&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="250" y="2690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-27" value="核心实现需要理解Patroni文档" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="210" y="1900" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
