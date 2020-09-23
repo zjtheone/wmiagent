@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T07:27:58.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="g3ng6pLbeHOsT2rvx7gi" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-23T07:30:31.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="6koIsFDdIgH9XPRPfjVh" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="5688" dy="3176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -666,7 +666,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMILbbspwZ0wlmzrvvVz" name="pgcluster Operator">
-    <mxGraphModel dx="10280" dy="5293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1985" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
@@ -926,8 +926,8 @@
         <mxCell id="OV9-m6dmQ-1NdaY5KtbN-6" value="准备ClusterSpec的结构&lt;br&gt;IsInit = True" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
           <mxGeometry x="2240" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OV9-m6dmQ-1NdaY5KtbN-8" value="&lt;div&gt;AddClusterBase为集群创建所有部署(以及各种其他支持)&lt;/div&gt;&lt;div&gt;资源，比如Service,ConfigMap,Secret等等)，但是将它们缩放为0。这&lt;/div&gt;&lt;div&gt;. 确保在需要时存在所有部署，以正确编排初始化&lt;/div&gt;&lt;div&gt;/cluster，例如，我们需要确保主DB部署资源已经创建&lt;/div&gt;&lt;div&gt;使repo部署变成online，因为这将使主数据库Online需使用。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1350" y="772.5" width="380" height="80" as="geometry" />
+        <mxCell id="OV9-m6dmQ-1NdaY5KtbN-8" value="&lt;div&gt;AddClusterBase为集群创建所有部署(以及各种其他支持)&lt;/div&gt;&lt;div&gt;资源，比如Service,ConfigMap,Secret等等)，但是将它们缩放为0。&lt;/div&gt;&lt;div&gt;这&lt;span&gt;确保在需要时存在所有部署，以正确编排初始化&lt;/span&gt;&lt;/div&gt;&lt;div&gt;cluster，例如，我们需要确保主DB部署资源已经创建在&lt;/div&gt;&lt;div&gt;使repo部署变成可用前，因为这将使主数据库变得可使用。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
+          <mxGeometry x="1330" y="1125" width="370" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hlfeTQx6_Cnpnqpu5m7U-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="OV9-m6dmQ-1NdaY5KtbN-9" target="OV9-m6dmQ-1NdaY5KtbN-14">
           <mxGeometry relative="1" as="geometry" />
