@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T07:23:55.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="70d4pfXg5MkBE5h5TaUN" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-23T07:27:58.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="g3ng6pLbeHOsT2rvx7gi" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="5688" dy="3176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -601,7 +601,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2LHnsUQI_TxQHrFFFeV_" name="Operator Arch">
-    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="5SKbVsiYGQw5b-h0bSiV-0" />
         <mxCell id="5SKbVsiYGQw5b-h0bSiV-1" parent="5SKbVsiYGQw5b-h0bSiV-0" />
@@ -666,7 +666,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMILbbspwZ0wlmzrvvVz" name="pgcluster Operator">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="0" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10280" dy="5293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
@@ -728,7 +728,8 @@
             <mxPoint x="1010" y="720" as="targetPoint" />
             <Array as="points">
               <mxPoint x="980" y="510" />
-              <mxPoint x="980" y="900" />
+              <mxPoint x="980" y="1330" />
+              <mxPoint x="1460" y="1330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -795,7 +796,7 @@
           <mxGeometry x="1250" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-20" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;AddClusterBootstrap&lt;/pre&gt;处理bootstrapping" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1060" y="905" width="120" height="60" as="geometry" />
+          <mxGeometry x="1060" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-21" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;AddClusterBootstrap&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
           <mxGeometry x="1520" y="235" width="120" height="80" as="geometry" />
@@ -885,46 +886,48 @@
           <mxGeometry x="1060" y="1135" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-49" value="AddClusterBase" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1460" y="860" width="120" height="80" as="geometry" />
+          <mxGeometry x="1460" y="1230" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WuodhJGJsOka3TGEAUCe-52" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF3333;" parent="Tet4A5Ykn7ojSv5wKa61-1" source="WuodhJGJsOka3TGEAUCe-50" target="WuodhJGJsOka3TGEAUCe-51" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="WuodhJGJsOka3TGEAUCe-52" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF3333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="Tet4A5Ykn7ojSv5wKa61-1" source="WuodhJGJsOka3TGEAUCe-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="2271.6666666666665" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-50" value="&lt;br&gt;&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;CreateMissingPostgreSQLVolumes&lt;br&gt;&lt;/span&gt;创建PVC" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1460" y="970" width="120" height="60" as="geometry" />
+          <mxGeometry x="1460" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-51" value="&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;addClusterCreateMissingService&lt;/span&gt;建Service" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1460" y="1078" width="120" height="60" as="geometry" />
+          <mxGeometry x="1460" y="1448" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-53" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;CreatePGHAConfigMap&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1460" y="1180" width="120" height="60" as="geometry" />
+          <mxGeometry x="1460" y="1540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-54" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;annotateBackrestSecret&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1460" y="1290" width="120" height="60" as="geometry" />
+          <mxGeometry x="1460" y="1630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-55" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;addClusterDeployments&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1460" y="1410" width="120" height="60" as="geometry" />
+          <mxGeometry x="1460" y="1725" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-56" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;ScaleClusterDeployments&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1460" y="1530" width="120" height="60" as="geometry" />
+          <mxGeometry x="1460" y="1820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OV9-m6dmQ-1NdaY5KtbN-2" value="EventClusterCreate&lt;br&gt;发送ClusterCreate事件" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1460" y="1610" width="120" height="60" as="geometry" />
+          <mxGeometry x="1460" y="1910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OV9-m6dmQ-1NdaY5KtbN-3" value="spec.Replicas !=&quot;&quot;&lt;br&gt;创建replica" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1460" y="1710" width="120" height="60" as="geometry" />
+          <mxGeometry x="1460" y="2000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OV9-m6dmQ-1NdaY5KtbN-4" value="为每一个Replicas创建一个CRD，准备spec" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1460" y="1800" width="120" height="60" as="geometry" />
+          <mxGeometry x="1460" y="2090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OV9-m6dmQ-1NdaY5KtbN-5" value="发送给KubeAPI创建" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1460" y="1890" width="120" height="60" as="geometry" />
+          <mxGeometry x="1460" y="2190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OV9-m6dmQ-1NdaY5KtbN-6" value="准备ClusterSpec的结构&lt;br&gt;IsInit = True" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
           <mxGeometry x="2240" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OV9-m6dmQ-1NdaY5KtbN-8" value="&lt;div&gt;AddClusterBase为集群创建所有部署(以及各种其他支持)&lt;/div&gt;&lt;div&gt;资源，比如Service,ConfigMap,Secret等等)，但是将它们缩放为0。这&lt;/div&gt;&lt;div&gt;. 确保在需要时存在所有部署，以正确编排初始化&lt;/div&gt;&lt;div&gt;/cluster，例如，我们需要确保主DB部署资源已经创建&lt;/div&gt;&lt;div&gt;使repo部署变成online，因为这将使主数据库Online需使用。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
-          <mxGeometry x="1350" y="760" width="380" height="80" as="geometry" />
+          <mxGeometry x="1350" y="772.5" width="380" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hlfeTQx6_Cnpnqpu5m7U-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="OV9-m6dmQ-1NdaY5KtbN-9" target="OV9-m6dmQ-1NdaY5KtbN-14">
           <mxGeometry relative="1" as="geometry" />
@@ -1298,6 +1301,24 @@
               <mxPoint x="1120" y="810" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XMR8rtMzUx9ApkxdVtbs-2" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="WuodhJGJsOka3TGEAUCe-16" target="WuodhJGJsOka3TGEAUCe-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160" y="950" as="sourcePoint" />
+            <mxPoint x="1210" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMR8rtMzUx9ApkxdVtbs-3" value="" style="endArrow=classic;html=1;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="WuodhJGJsOka3TGEAUCe-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160" y="950" as="sourcePoint" />
+            <mxPoint x="1120" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XMR8rtMzUx9ApkxdVtbs-4" value="return" style="ellipse;whiteSpace=wrap;html=1;fontColor=#000000;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1082.5" y="1220" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XMR8rtMzUx9ApkxdVtbs-5" value="return" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="1490" y="2270" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
