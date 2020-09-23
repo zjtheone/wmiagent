@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T02:53:42.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="w7EFBeLR2K_NlBeTxGAN" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-23T03:22:36.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="_2UF5FqaNFi1O_9DHN-M" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="1060" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -666,7 +666,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMILbbspwZ0wlmzrvvVz" name="pgcluster Operator">
-    <mxGraphModel dx="4240" dy="3100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
@@ -1005,6 +1005,12 @@
             <mxPoint x="400" y="1520" as="sourcePoint" />
             <mxPoint x="450" y="1470" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-5" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;publishStandbyEnabled&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="250" y="1730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-7" value="Standby集群由patroni工具实现参考：https://github.com/zalando/patroni/blob/master/docs/replica_bootstrap.rst" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="310" y="1590" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
