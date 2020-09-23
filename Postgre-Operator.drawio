@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T10:37:50.655Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="k5abUbMCMhish66C8qtk" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-23T12:15:44.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="zheoO_Lj9EJCCSc5cF_q" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
-    <mxGraphModel dx="5688" dy="2980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -596,6 +596,63 @@
         </mxCell>
         <mxCell id="eULdPivSgUm90FJHOyYH-29" value="记录修改过的cluster到Results" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1710" y="3060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-2" value="&lt;font color=&quot;#000000&quot;&gt;API Server&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-3" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;CreateUpgradeHandler&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-4" value="从请求报文中获取参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="1884" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-5" value="AuthCheck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="1984" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-6" value="准备返回参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="2084" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-7" value="Check Client &amp;amp; Server Version Match" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="2184" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-8" value="CreateUpdate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="2284" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-9" value="return" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2255" y="2375" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-10" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;CreateUpgrade&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-11" value="" style="endArrow=classic;html=1;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rBhdoT9bOdcybPWu2_kn-8" target="rBhdoT9bOdcybPWu2_kn-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2280" y="2090" as="sourcePoint" />
+            <mxPoint x="2330" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="1524" width="20" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-13" value="API Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="2265" y="1734" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-14" value="通过selector获取要upgrade的cluster列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="1884" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-15" value="为每个cluster创建一个upgrade task&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 0 , 0)&quot;&gt;tasktype=&lt;span style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;crv1.PgtaskUpgrade&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="1980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-16" value="判断版本是否支持upgrade" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="2080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-17" value="判断cluster的镜像与pgo版本是否兼容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="2170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-18" value="kubeapi发送出去创建pgtask" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhdoT9bOdcybPWu2_kn-20" value="return" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2455" y="2360" width="90" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
