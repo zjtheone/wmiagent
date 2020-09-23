@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T06:27:07.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="_J2zT1WT2ObVOPS4zleF" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-23T06:45:16.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="ahz9wcvVVRLNxGOI4sCQ" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="1060" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -666,14 +666,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMILbbspwZ0wlmzrvvVz" name="pgcluster Operator">
-    <mxGraphModel dx="4355" dy="1985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2473" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-38" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="hlfeTQx6_Cnpnqpu5m7U-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="2160" as="sourcePoint" />
+            <mxPoint x="970" y="2951.176470588235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hlfeTQx6_Cnpnqpu5m7U-31" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="OV9-m6dmQ-1NdaY5KtbN-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="770" y="1340" as="sourcePoint" />
-            <mxPoint x="720" y="2160" as="targetPoint" />
+            <mxPoint x="720" y="2270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0Dtra9Rd_sB84bFZ9sfG-21" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#FF0000;fontSize=15;fontColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.008;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" parent="Tet4A5Ykn7ojSv5wKa61-1" source="OV9-m6dmQ-1NdaY5KtbN-23" target="0Dtra9Rd_sB84bFZ9sfG-20" edge="1">
@@ -1201,6 +1207,51 @@
             <mxPoint x="500" y="2250" as="sourcePoint" />
             <mxPoint x="550" y="2200" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-32" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;updateAnnotations&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="660" y="2270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-33" value="&lt;span&gt;deepEqual查看其它字段是否&lt;br&gt;修改&lt;br&gt;如Annotation等&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="640" y="2152.5" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-34" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;updateTablespaces&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="910" y="2080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-35" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Tet4A5Ykn7ojSv5wKa61-1" source="OV9-m6dmQ-1NdaY5KtbN-31" target="hlfeTQx6_Cnpnqpu5m7U-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="2160" as="sourcePoint" />
+            <mxPoint x="920" y="2110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-36" value="&lt;font color=&quot;#000000&quot;&gt;newCluster和olderCluster对比找出新增的tableSpace的信息&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="910" y="2170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-37" value="&lt;font color=&quot;#000000&quot;&gt;operator.UpdateTablespaces&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="910" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-39" value="&lt;font color=&quot;#000000&quot;&gt;UpdateTablespaces&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="910" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-41" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;//&amp;nbsp;UpdateTablespaces&amp;nbsp;updates&amp;nbsp;the&amp;nbsp;PostgreSQL&amp;nbsp;instance&amp;nbsp;Deployments&amp;nbsp;to&amp;nbsp;update&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;//&amp;nbsp;what&amp;nbsp;tablespaces&amp;nbsp;are&amp;nbsp;mounted.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="760" y="2340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-42" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;quot;consolas&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;GetInstanceDeployments&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FFFFFF;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="910" y="2450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-43" value="为每个deployment添加新的tablespace创建pvc&lt;br&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;pvc.&lt;span style=&quot;color: #dcdcaa&quot;&gt;CreateIfNotExists&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="910" y="2550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-44" value="修改每个deployment的0号容器database的volume信息" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="910" y="2660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-45" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;stopPostgreSQLInstance&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="910" y="2770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-46" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;KubeApi&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;Update Deployment&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="910" y="2870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlfeTQx6_Cnpnqpu5m7U-47" value="return" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;align=center;" vertex="1" parent="Tet4A5Ykn7ojSv5wKa61-1">
+          <mxGeometry x="940" y="2950" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
