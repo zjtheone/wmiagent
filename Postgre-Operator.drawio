@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T06:57:35.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="UUfHO64TgPZSt4tHm_e0" version="13.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-09-23T06:58:38.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="ZvywXJtVsJrnD4QuDeQg" version="13.7.3" type="github" pages="7">
   <diagram id="e6y-2lSQlXqC9P7j0iec" name="Cluster-APIServer">
     <mxGraphModel dx="1060" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -666,7 +666,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMILbbspwZ0wlmzrvvVz" name="pgcluster Operator">
-    <mxGraphModel dx="7910" dy="3970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2222" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-0" />
         <mxCell id="Tet4A5Ykn7ojSv5wKa61-1" parent="Tet4A5Ykn7ojSv5wKa61-0" />
@@ -722,10 +722,14 @@
             <mxPoint x="520" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Dtra9Rd_sB84bFZ9sfG-2" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#FF0000;fontSize=15;fontColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Tet4A5Ykn7ojSv5wKa61-1" source="OV9-m6dmQ-1NdaY5KtbN-12" target="WuodhJGJsOka3TGEAUCe-49" edge="1">
+        <mxCell id="0Dtra9Rd_sB84bFZ9sfG-2" value="" style="endArrow=classic;html=1;labelBackgroundColor=#FFFFFF;strokeColor=#FF0000;fontSize=15;fontColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="Tet4A5Ykn7ojSv5wKa61-1" source="OV9-m6dmQ-1NdaY5KtbN-12" target="WuodhJGJsOka3TGEAUCe-49" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="960" y="770" as="sourcePoint" />
             <mxPoint x="1010" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="510" />
+              <mxPoint x="980" y="900" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WuodhJGJsOka3TGEAUCe-1" value="获取cluster，查看状态如果为 processed不处理" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" parent="Tet4A5Ykn7ojSv5wKa61-1" vertex="1">
